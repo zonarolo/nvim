@@ -1,0 +1,73 @@
+Space + nt (NerdTree)= Arbol 
+Space + b (Search)= Ir a palabra
+Space + q (:q)= salir
+Space + w (:w) = guardar
+Space + y = copiar en clipboard
+Space + p = pegar en clipboard
+Space + d = cortar almacenando en clipboard
+Space + l (Ctrl + i) = siguiente archivo
+Space + j (Ctrl + o)= archivo anterior
+Space + qt = elimina buffer
+Ctrl + l = Mueve al archivo buffer de la derecha
+Ctrl + h = Mueve al archivo buffer de la izquierda
+
+
+h = izquierda
+j = abajo
+k = arriba
+l = derecha
+
+w = lleva el cursor al principio del objeto de texto siguiente
+b = lleva el cursor al principio del objeto de texto anterior
+e = lleva el cursor al final del objeto de texto siguiente
+
+i = modo insertar antes del cursor
+a = modo insertar despues del cursor
+A (Shift + a) = modo insertar al final de la linea
+
+s = modo insertar eliminando la letra en la que estoy posicionado
+x = elminar caracter
+dw = delete word / borrar palabra
+d$ = eliminar contenido hasta el final de la linea
+dd = cortar linea entera
+
+- Eliminar con operadores
+d6w = eliminamos 6 caracteres
+d6b = eliminamos 6 adelante
+d6e = eliminamos 6 hacia atras
+ 
+u = undo/deshacer
+r = redu/rehacer
+p = pegar despues de la linea dentro de vim(no se almacena en clipboard)
+P = pegar antes de la linea dentro de vim(no se almacena en clipboard)
+
+gd = nos lleva a la definicion de la palabra
+gf = navegamos hacia el archivo sobre el que estoy
+
+- Operador de cambio
+cw = change word / cambiar palabra
+ciw = change inner word / cambiar valor del 
+:s/valorAreemplazar/valorNuevo/g = :s/ Comando para sustituir valores, 
+primero indicar el valor a reemplazar y luego el nuevo separados por /, 
+sino agregamos la /g del final solo reemplazara la primera coincidencia 
+de lo contrario reemplazaria todas las ocurrencias de la linea.
+:%s/numero/unoAlCinco/gc = Lo mismo que el anterior pero en todo el
+archivo y preguntando en cada coincidencia.
+
+- Salto de linea / Busqueda
+gg = ir al comienzo del archivo
+G (Shift + g) = ir al final del archivo
+/ = Busqueda de palabras desde la posicion del cursor en adelante
+? = busqueda de palabras desde la posicion del cursor hacia atras
+n = la n se utiliza para saltar de palabra en palabra encontrada
+N (Shift + n) = volvemos a la coincidencia anterior
+
+- Mas comandos 
+o = abrir nueva linea debajo del cursor dejando en modo insert
+O (Shift + o) = abrir nueva linea encima del cursor
+R (Shift + R) = reemplazar
+
+- Copiar / Pegar
+Debemos entrar en el modo visual con la letra v
+y = copiar
+p = pegar
