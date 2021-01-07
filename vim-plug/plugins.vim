@@ -23,10 +23,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "IDE
     Plug 'easymotion/vim-easymotion'
     Plug 'christoomey/vim-tmux-navigator'
-
+    Plug 'junegunn/vim-emoji'                          " Vim needs emojis!
     Plug 'gmarik/Vundle.vim'                           " Vundle
     Plug 'itchyny/lightline.vim'                       " Lightline statusbar
     Plug 'suan/vim-instant-markdown', {'rtp': 'after'} " Markdown Preview
     Plug 'frazrepo/vim-rainbow'
-
+    Plug 'airblade/vim-gitgutter' 
 call plug#end()
