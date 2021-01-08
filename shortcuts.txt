@@ -11,7 +11,6 @@ Space + qt = elimina buffer
 Ctrl + l = Mueve al archivo buffer de la derecha
 Ctrl + h = Mueve al archivo buffer de la izquierda
 
-
 h = izquierda
 j = abajo
 k = arriba
@@ -71,3 +70,7 @@ R (Shift + R) = reemplazar
 Debemos entrar en el modo visual con la letra v
 y = copiar
 p = pegar
+
+- Moverte en la linea
+^ (Shift + 6) = para mover el cursor al inicio de la línea actual. 
+$ (Shift + 4) = para mover el cursor al final de la línea actual.
