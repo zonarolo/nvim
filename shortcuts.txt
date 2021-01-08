@@ -74,3 +74,7 @@ p = pegar
 - Moverte en la linea
 ^ (Shift + 6) = para mover el cursor al inicio de la línea actual. 
 $ (Shift + 4) = para mover el cursor al final de la línea actual.
+
+- Toggle word wrap
+:set wrap! = activar
+:set nowrap! = desactivar
