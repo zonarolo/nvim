@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ap/vim-css-color'                            " Color previews for CSS
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'mattn/emmet-vim'
     "Tema
     Plug 'morhetz/gruvbox'
     "IDE
