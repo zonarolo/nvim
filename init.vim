@@ -9,6 +9,7 @@ syntax enable
 "set cursorline  " Resalta la línea actual
 "set colorcolumn=120  " Muestra la columna límite a 120 caracteres
 
+set wrap!
 set showcmd
 set ruler
 set encoding=utf-8

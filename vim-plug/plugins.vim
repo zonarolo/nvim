@@ -30,4 +30,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'suan/vim-instant-markdown', {'rtp': 'after'} " Markdown Preview
     Plug 'frazrepo/vim-rainbow'
     Plug 'airblade/vim-gitgutter' 
+    Plug 'luochen1990/rainbow'
+    let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 call plug#end()
