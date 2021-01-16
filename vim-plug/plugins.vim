@@ -21,6 +21,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mattn/emmet-vim'
     "Tema
     Plug 'morhetz/gruvbox'
+    Plug 'joshdick/onedark.vim'
+    " Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " Keeping up to date with master
+    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     "IDE
     Plug 'easymotion/vim-easymotion'
     Plug 'christoomey/vim-tmux-navigator'
