@@ -22,9 +22,9 @@ nnoremap <S-TAB> :bprevious<CR>
 " SHIFT-C close buffer
 nnoremap <S-q> :bdelete<CR>
 " Alternate way to save
-nnoremap <C-s> :w<CR>
+nnoremap <S-s> :w<CR>
 " Alternate way to quit
-nnoremap <C-Q> :wq!<CR>
+nnoremap <C-q> :wq!<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.

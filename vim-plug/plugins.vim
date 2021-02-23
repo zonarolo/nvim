@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'morhetz/gruvbox'
+    Plug 'arcticicestudio/nord-vim'
+    Plug 'dracula/vim'
     Plug 'joshdick/onedark.vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -30,12 +32,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     "IDE
+    Plug 'tpope/vim-commentary'                        " Commenting
     Plug 'easymotion/vim-easymotion'
+    Plug 'mhinz/vim-startify'
     Plug 'christoomey/vim-tmux-navigator'
     Plug 'gmarik/Vundle.vim'                           " Vundle
     Plug 'suan/vim-instant-markdown', {'rtp': 'after'} " Markdown Preview
     Plug 'airblade/vim-gitgutter' 
     Plug 'luochen1990/rainbow'
+    Plug 'junegunn/rainbow_parentheses.vim'
     let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 call plug#end()
 
